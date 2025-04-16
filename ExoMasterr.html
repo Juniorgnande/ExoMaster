@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - ExoMaster</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#"><i class="fas fa-graduation-cap me-2"></i>ExoMaster</a>
+            <div>
+                <a href="/inscription" class="btn btn-outline-light me-2">Inscription</a>
+                <a href="/connexion" class="btn btn-light">Connexion</a>
+            </div>
+        </div>
+    </nav>
+    <header class="py-5 bg-white shadow-sm">
+        <div class="container text-center">
+            <h1 class="display-5 fw-bold">Bienvenue sur ExoMaster</h1>
+            <p class="lead text-muted">La plateforme qui vous propose des cours et exercices adaptés à votre niveau pour un apprentissage progressif et efficace.</p>
+            <a href="/inscription" class="btn btn-success btn-lg px-4">Commencer maintenant</a>
+        </div>
+    </header>
+    <section class="container my-5">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <i class="fas fa-user-graduate fa-3x text-primary mb-3"></i>
+                <h4>Inscription facile</h4>
+                <p>Rejoignez-nous en quelques clics et accédez à votre tableau de bord personnalisé.</p>
+            </div>
+            <div class="col-md-4">
+                <i class="fas fa-book-open fa-3x text-success mb-3"></i>
+                <h4>Exercices adaptés</h4>
+                <p>Chaque exercice est choisi selon votre niveau pour garantir un apprentissage efficace.</p>
+            </div>
+            <div class="col-md-4">
+                <i class="fas fa-chart-line fa-3x text-warning mb-3"></i>
+                <h4>Suivi de progression</h4>
+                <p>Consultez vos résultats et progressez à votre rythme grâce à notre système intelligent.</p>
+            </div>
+        </div>
+    </section>
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Domaines disponibles</h2>
+        <div class="row g-4">
+            <div class="col-md-3">
+                <a href="/cours/informatique" class="text-decoration-none text-dark">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <i class="fas fa-laptop-code fa-2x text-primary mb-2"></i>
+                            <h5 class="card-title">Informatique</h5>
+                            <p class="card-text">Langages de programmation, algorithmique, développement web...</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="/cours/cartographie" class="text-decoration-none text-dark">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <i class="fas fa-map fa-2x text-success mb-2"></i>
+                            <h5 class="card-title">Cartographie</h5>
+                            <p class="card-text">Systèmes d'information géographique, géomatique, mapping...</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="/cours/lecture" class="text-decoration-none text-dark">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <i class="fas fa-book-reader fa-2x text-warning mb-2"></i>
+                            <h5 class="card-title">Lecture & Écriture</h5>
+                            <p class="card-text">Compréhension écrite, expression, analyse littéraire...</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="/cours/sante" class="text-decoration-none text-dark">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <i class="fas fa-heartbeat fa-2x text-danger mb-2"></i>
+                            <h5 class="card-title">Santé & Bien-être</h5>
+                            <p class="card-text">Éducation à la santé, premiers secours, hygiène, nutrition...</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <a href="/cours" class="btn btn-outline-primary">Voir tous les cours</a>
+        </div>
+    </section>
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Exercices récents</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Quiz Python - Niveau débutant</h5>
+                        <p class="card-text">10 questions pour tester vos bases en Python.</p>
+                        <a href="/exercice/1" class="btn btn-sm btn-primary">Commencer</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Lecture : Compréhension de texte</h5>
+                        <p class="card-text">Répondez à des questions après lecture d’un extrait.</p>
+                        <a href="/exercice/2" class="btn btn-sm btn-primary">Commencer</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Santé : Quiz Nutrition</h5>
+                        <p class="card-text">Vérifiez vos connaissances sur une alimentation équilibrée.</p>
+                        <a href="/exercice/3" class="btn btn-sm btn-primary">Commencer</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <a href="/exercices" class="btn btn-outline-success">Voir tous les exercices</a>
+        </div>
+    </section>
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h6>Navigation</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="/" class="text-white">Accueil</a></li>
+                        <li><a href="/cours" class="text-white">Cours</a></li>
+                        <li><a href="/exercices" class="text-white">Exercices</a></li>
+                        <li><a href="/connexion" class="text-white">Connexion</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h6>Suivez votre progression</h6>
+                    <p>Connectez-vous pour accéder à votre tableau de bord, suivre vos scores, gagner des badges, et progresser étape par étape.</p>
+                </div>
+                <div class="col-md-4">
+                    <h6>Forum & Communauté</h6>
+                    <p>Discutez avec d'autres étudiants, posez vos questions et partagez vos connaissances via notre forum intégré.</p>
+                </div>
+            </div>
+            <hr class="bg-light">
+            <small>&copy; 2025 ExoMaster. Tous droits réservés. | Développé par Junior GNANDE</small>
+        </div>
+    </footer>
+</body>
+</html>
